@@ -1,0 +1,8 @@
+id,first_name,last_name,email,age,active,signup_date,last_login,balance,notes
+1,Ada,Lovelace,ada@example.com,36,yes,1843-12-10,2024-01-05 09:15:00,1204.50,"first programmer"
+2,Grace,Hopper,grace@example.com,85,no,1952-01-01,2023-11-30 22:04:11,-18.25,"said ""hello"" to me"
+3,Alan,Turing,alan@example.com,41,yes,1936-06-23,,0,"multi
+line note"
+4,Katherine,Johnson,katherine@example.com,101,yes,1953-08-26,2024-02-01 00:00:00,3.14159,trailing
+5,O'Brien,Patrick,obrien@example.com,,yes,2000-01-01,2024-01-01 12:00:00,0.00,"it's got a quote"
+6,X,,x@example.com,2147483648,yes,1970-01-01,2024-01-01 00:00:01,99999999999.99,too big for int

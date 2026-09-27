@@ -1,0 +1,7 @@
+#!/bin/sh
+# Convenience wrapper: ./csv2sql -i data.csv -t my_table
+DIR=$(cd "$(dirname "$0")" && pwd)
+if [ ! -f "$DIR/build/csv2sql.jar" ]; then
+  "$DIR/build.sh" >&2
+fi
+exec java -jar "$DIR/build/csv2sql.jar" "$@"
